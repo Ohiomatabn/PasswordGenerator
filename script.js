@@ -13,7 +13,7 @@ function generatePassword(){
   const lowerCaseChars = "abcdefghijklmnopqrstuvwxyz";
    const upperCaseChars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
    const numberChars = '0123456789';
-   const symbolChars = '!@#$%^&*_-?+|';
+   const symbolChars = '!@#$%^&_-';
 
    let allowedChars = '';
    let password = '';
